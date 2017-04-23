@@ -10,6 +10,13 @@
 
 @interface ViewController : UIViewController
 
+// objects/classes use pointers
+@property(nonatomic, strong) NSString *name;
+@property(nonatomic) NSNumber *bankBalance;
+
+// native types use no pointers
+@property(nonatomic) int age;
+@property(nonatomic) NSInteger debt;
 
 @end
 
